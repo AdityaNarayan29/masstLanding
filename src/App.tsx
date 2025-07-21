@@ -10,7 +10,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(() => {
     // Check for saved theme preference or default to light mode
     const saved = localStorage.getItem('darkMode');
-    return saved ? JSON.parse(saved) : false;
+    return saved ? JSON.parse(saved) : true;
   });
   
   // Apply dark mode class to document
