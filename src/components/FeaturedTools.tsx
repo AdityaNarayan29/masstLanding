@@ -1,12 +1,13 @@
 import {
   ExternalLink,
   Github,
-  Clock,
   Zap,
   Terminal,
   FileText,
   Eye,
   Layers,
+  FlameIcon,
+  Globe,
 } from "lucide-react";
 
 const tools = [
@@ -14,10 +15,23 @@ const tools = [
     name: "LeetDaily",
     description:
       "Track your LeetCode streak. Chrome extension that glows red if you forget to solve.",
-    icon: Clock,
+    icon: FlameIcon,
     links: [
-      { label: "Chrome Store", url: "#", icon: ExternalLink },
-      { label: "GitHub", url: "#", icon: Github },
+      {
+        label: "Chrome Store",
+        url: "https://chromewebstore.google.com/detail/leetdaily-%E2%80%94-daily-leetcod/kpmmlpoonleloofchbbfnmicchmhehcf",
+        icon: ExternalLink,
+      },
+      {
+        label: "Landing",
+        url: "https://leetdaily.masst.dev/",
+        icon: Globe,
+      },
+      {
+        label: "GitHub",
+        url: "https://github.com/AdityaNarayan29/leetDaily",
+        icon: Github,
+      },
     ],
     status: "available",
   },

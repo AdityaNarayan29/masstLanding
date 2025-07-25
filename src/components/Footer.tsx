@@ -41,7 +41,7 @@ export default function Footer() {
             <ul className='space-y-4'>
               <li>
                 <a
-                  href='#'
+                  href='https://leetdaily.masst.dev/'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200'
                 >
                   LeetDaily
