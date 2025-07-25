@@ -1,4 +1,4 @@
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import logo from "../assets/logo.png";
 
 export default function Hero() {
