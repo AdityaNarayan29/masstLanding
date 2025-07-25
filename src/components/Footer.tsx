@@ -1,4 +1,4 @@
-import { Github, BookOpen, Twitter, Mail } from "lucide-react";
+import { Github, BookOpen, Twitter, Mail, Package } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -102,6 +102,15 @@ export default function Footer() {
                 >
                   <Github className='w-4 h-4' />
                   GitHub Org
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#'
+                  className='text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2'
+                >
+                  <Package className='w-4 h-4' />
+                  NPM Org
                 </a>
               </li>
               <li>

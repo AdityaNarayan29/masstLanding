@@ -9,9 +9,11 @@ export default function FutureVision() {
 
       <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 animate-fade-in'>
         <div className='mb-8'>
-          <div className='inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium mb-8'>
-            <Sparkles className='w-4 h-4 text-primary' />
-            The Future
+          <div className='inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-full text-sm font-medium mb-8 shadow-[0_0_12px_rgba(255,255,255,0.2)] hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-shadow duration-300'>
+            <Sparkles className='w-4 h-4 text-primary drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]' />
+            <span className='drop-shadow-[0_0_6px_rgba(255,255,255,0.8)]'>
+              The Future
+            </span>
           </div>
 
           <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6 tracking-tight'>
