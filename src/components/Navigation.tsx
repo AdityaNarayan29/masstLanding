@@ -37,23 +37,17 @@ export default function Navigation({
               Tools
             </a>
             <a
-              href='#'
+              href='docs.masst.dev'
               className='text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200'
             >
               Docs
             </a>
             <a
-              href='#'
+              href='https://github.com/AdityaNarayan29/'
               className='text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2'
             >
               <Github className='w-4 h-4' />
               GitHub
-            </a>
-            <a
-              href='#'
-              className='text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200'
-            >
-              Blog
             </a>
 
             {/* Dark Mode Toggle */}
@@ -103,23 +97,17 @@ export default function Navigation({
               Tools
             </a>
             <a
-              href='#'
+              href='docs.masst.dev'
               className='block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent rounded-md transition-colors duration-200'
             >
               Docs
             </a>
             <a
-              href='#'
+              href='https://github.com/AdityaNarayan29/'
               className='flex items-center gap-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent rounded-md transition-colors duration-200'
             >
               <Github className='w-4 h-4' />
               GitHub
-            </a>
-            <a
-              href='#'
-              className='block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent rounded-md transition-colors duration-200'
-            >
-              Blog
             </a>
 
             {/* Mobile Dark Mode Toggle */}

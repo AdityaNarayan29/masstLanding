@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className='relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in'>
         <div className='mb-8'>
-          <div className='inline-flex items-center justify-center w-16 h-16 bg-primary rounded-xl'>
+          <div className='inline-flex items-center justify-center w-16 h-16 bg-primary rounded-full'>
             <img src={logo} alt='Logo' className='w-14 h-14 object-contain' />
           </div>
         </div>
