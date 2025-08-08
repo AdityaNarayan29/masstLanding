@@ -8,9 +8,25 @@ import {
   Layers,
   FlameIcon,
   Globe,
+  Globe2,
 } from "lucide-react";
 
 const tools = [
+  {
+    name: "Masst Docs - System Design",
+    description:
+      "AI-powered, minimal documentation viewer with blazing fast search.",
+    icon: FileText,
+    links: [
+      { label: "Project", url: "https://docs.masst.dev/", icon: Globe2 },
+      {
+        label: "GitHub",
+        url: "https://github.com/AdityaNarayan29/masstDocs",
+        icon: Github,
+      },
+    ],
+    status: "available",
+  },
   {
     name: "LeetDaily",
     description:
@@ -36,6 +52,24 @@ const tools = [
     status: "available",
   },
   {
+    name: "Masst Events",
+    description: "A reliable event bus for structured, reactive flows.",
+    icon: Zap,
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/AdityaNarayan29/event-planner-monorepo",
+        icon: Github,
+      },
+      {
+        label: "Website",
+        url: "https://mast-events.framer.website/",
+        icon: Globe,
+      },
+    ],
+    status: "available",
+  },
+  {
     name: "Masst UI",
     description: "Lightweight component library, built for speed and clarity.",
     icon: Layers,
@@ -50,21 +84,6 @@ const tools = [
     description:
       "CLI for scaffolding and automation, plug-and-play simplicity.",
     icon: Terminal,
-    links: [{ label: "GitHub", url: "#", icon: Github }],
-    status: "available",
-  },
-  {
-    name: "Masst Events",
-    description: "A reliable event bus for structured, reactive flows.",
-    icon: Zap,
-    links: [{ label: "GitHub", url: "#", icon: Github }],
-    status: "available",
-  },
-  {
-    name: "Masst Docs",
-    description:
-      "AI-powered, minimal documentation viewer with blazing fast search.",
-    icon: FileText,
     links: [{ label: "GitHub", url: "#", icon: Github }],
     status: "available",
   },

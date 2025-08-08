@@ -15,19 +15,19 @@ export default function Footer() {
 
             <div className='flex gap-4'>
               <a
-                href='#'
+                href='#https://github.com/AdityaNarayan29/'
                 className='w-10 h-10 bg-secondary text-secondary-foreground rounded-md flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors duration-200 hover:scale-105 active:scale-95'
               >
                 <Github className='w-5 h-5' />
               </a>
               <a
-                href='#'
+                href='https://x.com/masstdev'
                 className='w-10 h-10 bg-secondary text-secondary-foreground rounded-md flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors duration-200 hover:scale-105 active:scale-95'
               >
                 <Twitter className='w-5 h-5' />
               </a>
               <a
-                href='#'
+                href='mailto:adityanarayan29j@gmail.com'
                 className='w-10 h-10 bg-secondary text-secondary-foreground rounded-md flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors duration-200 hover:scale-105 active:scale-95'
               >
                 <Mail className='w-5 h-5' />
@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='https://www.npmjs.com/package/masst'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200'
                 >
                   Masst UI
@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='https://www.npmjs.com/package/masst'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200'
                 >
                   Masst CLI
@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='https://mast-events.framer.website/'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200'
                 >
                   Masst Events
@@ -73,7 +73,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='docs.masst.dev'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200'
                 >
                   Masst Docs
@@ -88,7 +88,7 @@ export default function Footer() {
             <ul className='space-y-4'>
               <li>
                 <a
-                  href='#'
+                  href='docs.masst.dev'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2'
                 >
                   <BookOpen className='w-4 h-4' />
@@ -97,36 +97,20 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href='#'
+                  href='https://github.com/AdityaNarayan29'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2'
                 >
                   <Github className='w-4 h-4' />
-                  GitHub Org
+                  GitHub
                 </a>
               </li>
               <li>
                 <a
-                  href='#'
+                  href='https://www.npmjs.com/package/masst'
                   className='text-muted-foreground hover:text-foreground transition-colors duration-200 flex items-center gap-2'
                 >
                   <Package className='w-4 h-4' />
                   NPM Org
-                </a>
-              </li>
-              <li>
-                <a
-                  href='#'
-                  className='text-muted-foreground hover:text-foreground transition-colors duration-200'
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href='#'
-                  className='text-muted-foreground hover:text-foreground transition-colors duration-200'
-                >
-                  Changelog
                 </a>
               </li>
             </ul>
@@ -151,7 +135,7 @@ export default function Footer() {
               Terms
             </a>
             <a
-              href='#'
+              href='mailto:adityanarayan29j@gmail.com'
               className='text-muted-foreground hover:text-foreground transition-colors duration-200 text-sm'
             >
               Contact
